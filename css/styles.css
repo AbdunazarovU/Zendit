@@ -353,3 +353,51 @@ input{
     margin-left: 12px;
     transform: translateY(3px);
 }
+
+
+/* PARTNERSHIP */
+.partnership__title{
+    margin-top: 178px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #A9A9A9;
+    
+}
+
+.partnership__second-title{
+    width: 697px;
+    margin: 0 auto;
+    margin-bottom: 94px;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 78px;
+    text-align: center;
+    color: #172F53;   
+}
+
+.markets-links{
+    width: 1489px;
+    margin: 0 auto;
+    padding: 105px 96px;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 100px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-bottom: 185px;
+}
+
+.market-link{
+    display: inline-block;
+    margin-right: 83px;
+    vertical-align: middle;
+}
+
+.market-link:nth-child(4n){
+    margin-right: 0;
+}
+
+.market-link img{
+    display: block;
+}
