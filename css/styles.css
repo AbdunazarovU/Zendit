@@ -37,6 +37,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins';
     color: #172F53;
 }
 
@@ -83,12 +84,12 @@ body{
 }
 
 .nav-link{
-    text-decoration: none;
     font-family: 'Poppins';
+    color: #172F53;
+    text-decoration: none;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    color: #172F53;
 }
 
 ul .nav-link::after{
@@ -119,11 +120,10 @@ ul .nav-link::after{
     background-color: #F6F8FF;
     background-image: url(../img/boxes.png);
     background-repeat: no-repeat;
-    background-position: 100% 0;
+    background-position: 100% -64px;
 }
 
 .main-title{
-    font-family: 'Poppins';
     font-weight: bold;
     font-size: 72px;
     line-height: 108px;
@@ -132,14 +132,83 @@ ul .nav-link::after{
 }
 
 .main-text{
-    font-family: 'Poppins';
     font-weight: normal;
     font-size: 30px;
     line-height: 45px;
     color: #7D7D7D;
     padding-bottom: 357px;
+    margin-bottom: 0;
 }
 
 .min_container{
     max-width: 684px;
+}
+
+
+/* FORM */
+.track_form{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.form__container{
+    max-width: 1489px;
+    padding: 41px 73px 70px 71px;
+    box-sizing: border-box;
+    margin-top: -146px;
+    margin-left: 142px;
+    margin-right: 289px;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 100px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.form-title{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+    margin: 0;
+}
+
+.form-text{
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.tracking_number{
+    width: 913px;
+    padding: 31px 40px;
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    color: #9F9F9F;
+}
+
+
+/* GENERAL BUTTON STYLES */
+.button{
+    background: #21D8E3;
+    border-radius: 10px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+input{
+    border: none;
+}
+
+
+.track_parcel{
+    padding-left: 88px;
+    padding-right: 88px;
+    margin-left: 90px;
 }
