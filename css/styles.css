@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+    url('../fonts/Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.woff2') format('woff2'),
+    url('../fonts/Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
+    url('../fonts/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.woff2') format('woff2'),
+    url('../fonts/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #172F53;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+/* SITE HEADER */
+.site-header{
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #F6F8FF;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1680px;
+    box-sizing: border-box;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+
+.site-header__container{
+    padding-top: 62px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: block;
+    margin-right: 150px;
+}
+
+.nav-lists{
+    display: flex;
+    list-style: none;
+}
+
+.nav-list{
+    margin-right: 62px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #172F53;
+}
+
+ul .nav-link::after{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/tick.svg);
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 10px;
+    margin-left: 15px;
+}
+
+.button-signIn{
+    margin-left: auto;
+}
+
+.button-primery{
+    margin-left: 50px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 9px 26px;
+}
+
+/* ABOUT US */
+.about-us{
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #F6F8FF;
+    background-image: url(../img/boxes.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
+
+.main-title{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 108px;
+    margin-top: 0;
+    padding-top: 170px;
+}
+
+.main-text{
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    color: #7D7D7D;
+    padding-bottom: 357px;
+}
+
+.min_container{
+    max-width: 684px;
+}
