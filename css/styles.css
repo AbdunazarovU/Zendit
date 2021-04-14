@@ -145,7 +145,7 @@ ul .nav-link::after{
 
 /* FORM */
 .form__container{
-    max-width: 1489px;
+    width: 1489px;
     padding: 41px 73px 70px 71px;
     box-sizing: border-box;
     margin-top: -146px;
@@ -254,6 +254,7 @@ input{
 
 .offer_section__title{
     font-weight: bold;
+    margin: 0;
     font-size: 32px;
     line-height: 48px;
 }
@@ -288,6 +289,8 @@ input{
 
 .offer_section__title__text{
     font-weight: 500;
+    margin: 0;
+    word-spacing: -1px;
     font-size: 20px;
     line-height: 30px;
     color: #A9A9A9;
