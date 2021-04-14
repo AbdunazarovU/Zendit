@@ -122,7 +122,7 @@ ul .nav-link::after{
     background-color: #F6F8FF;
     background-image: url(../img/boxes.png);
     background-repeat: no-repeat;
-    background-position: 100% -64px;
+    background-position: 1120px -64px;
 }
 
 .main-title{
