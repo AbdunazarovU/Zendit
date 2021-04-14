@@ -100,7 +100,7 @@ ul .nav-link::after{
     display: inline-block;
     background-image: url(../img/tick.svg);
     background-repeat: no-repeat;
-    object-fit: contain;
+    background-size: contain;
     width: 13px;
     height: 10px;
     margin-left: 15px;
@@ -137,7 +137,7 @@ ul .nav-link::after{
     font-weight: normal;
     font-size: 30px;
     line-height: 45px;
-    color: #7D7D7D;
+    color: #7d7d7d;
     padding-bottom: 357px;
     margin-bottom: 0;
 }
@@ -155,7 +155,7 @@ ul .nav-link::after{
     margin-top: -146px;
     margin-left: 142px;
     margin-right: 289px;
-    background: #FFFFFF;
+    background: #fff;
     box-shadow: 8px 8px 100px 10px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
 }
@@ -196,7 +196,7 @@ ul .nav-link::after{
     font-weight: bold;
     font-size: 25px;
     line-height: 37px;
-    color: #FFFFFF;
+    color: #fff;
 }
 
 input{
@@ -230,7 +230,7 @@ input{
     font-size: 30px;
     line-height: 45px;
     text-align: center;
-    color: #A9A9A9;
+    color: #a9a9a9;
 }
 
 .special_offers{
