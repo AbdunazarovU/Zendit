@@ -45,8 +45,8 @@
                 <h2 class="form-title">Track your packet here</h2>
                 <p class="form-text">data provided by zendit</p>
             </label>    
-            <input class="tracking_number" type="text" name="tracking number" placeholder="enter the tracking number / receipt" required>
-            <input class="track_parcel button" type="submit" value="Track parcel">
+            <input id="tracking_number" type="text" name="tracking number" placeholder="enter the tracking number / receipt" required>
+            <input class="track_parcel button" for="tracking_number" type="submit" value="Track parcel">
         </div>
     </form>
 
@@ -120,41 +120,41 @@
 
 
     <footer class="site-footer">
-        <ul>
+        <ul class="site-footer__main-lists">
             <li>
-                <ul>
-                    <li><h4>Information</h4></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
+                <ul class="site-footer__lists">
+                    <li><h4 class="site-footer__title">Information</h4></li>
+                    <li><a class="site-footer__link" href="#">FAQ</a></li>
+                    <li><a class="site-footer__link" href="#">Terms & Conditions</a></li>
+                    <li><a class="site-footer__link" href="#">Privacy Policy</a></li>
                 </ul>
             </li>
             <li>
-                <ul>
-                    <li><h4>Product & Service</h4></li>
-                    <li><a href="#">Shipment</a></li>
-                    <li><a href="#">Cargo</a></li>
-                    <li><a href="#">Zendit</a></li>
-                    <li><a href="#">COD</a></li>
-                    <li><a href="#">Best</a></li>
-                    <li><a href="#">Gokils</a></li>
+                <ul class="site-footer__lists">
+                    <li><h4 class="site-footer__title">Product & Service</h4></li>
+                    <li><a class="site-footer__link" href="#">Shipment</a></li>
+                    <li><a class="site-footer__link" href="#">Cargo</a></li>
+                    <li><a class="site-footer__link" href="#">Zendit</a></li>
+                    <li><a class="site-footer__link" href="#">COD</a></li>
+                    <li><a class="site-footer__link" href="#">Best</a></li>
+                    <li><a class="site-footer__link" href="#">Gokils</a></li>
                 </ul>
             </li>
             <li>
-                <ul>
-                    <li><h4>Info Contact</h4></li>
-                    <li><span>Jl. Ir. H. Juanda 3 No. 17-19, 
+                <ul class="site-footer__lists">
+                    <li><h4 class="site-footer__title">Info Contact</h4></li>
+                    <li><span class="site-footer__span">Jl. Ir. H. Juanda 3 No. 17-19, 
                         RT.008/RW.002, Kel. Kebon 
                         Kelapa Kec. Gambir, Jakarta 
                         Pusat 10120</span></li>
-                    <li><a href="#">customer.care@zendit.com</a></li>
+                    <li><a class="site-footer__link" href="#">customer.care@zendit.com</a></li>
                 </ul>
             </li>
             <li>
-                <ul>
-                    <li><h4>Download App</h4></li>
-                    <li><a href="#"><img src="img/googlePlay.png" alt="google play"></a></li>
-                    <li><a href="#"><img src="img/appStore.png" alt="app store"></a></li>
+                <ul class="site-footer__lists">
+                    <li><h4 class="site-footer__title">Download App</h4></li>
+                    <li><a class="site-footer__link" href="#"><img class="site-footer__img" src="img/googlePlay.png" alt="google play"></a></li>
+                    <li><a class="site-footer__link" href="#"><img class="site-footer__img" src="img/appStore.png" alt="app store"></a></li>
                 </ul>
             </li>
         </ul>
