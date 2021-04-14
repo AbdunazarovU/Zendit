@@ -168,6 +168,7 @@ ul .nav-link::after{
 }
 
 .form-text{
+    display: block;
     font-weight: normal;
     font-size: 25px;
     line-height: 37px;
