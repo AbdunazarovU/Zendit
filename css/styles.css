@@ -122,7 +122,7 @@ ul .nav-link::after{
     background-color: #F6F8FF;
     background-image: url(../img/boxes.png);
     background-repeat: no-repeat;
-    background-position: 1120px -64px;
+    background-position: calc(50% + 500px) -64px;
 }
 
 .main-title{
@@ -153,6 +153,7 @@ ul .nav-link::after{
     padding: 41px 73px 70px 71px;
     box-sizing: border-box;
     margin-top: -146px;
+    margin-bottom: 170px;
     margin-left: 142px;
     margin-right: 289px;
     background: #fff;
@@ -214,15 +215,19 @@ input{
 
 
 /* OFFERS */
+.offers{
+    margin-bottom: 178px;
+}
+
 .offers__title{
     max-width: 852px;
     margin: 0 auto;
+    margin-bottom: 94px;
     font-weight: bold;
     font-size: 52px;
     line-height: 78px;
     text-align: center;
     color: #172F53;
-    margin-top: 170px;
 }
 
 .offers--span{
@@ -240,7 +245,6 @@ input{
     flex-wrap: wrap;
     background-color: #fff;
     margin: 0 auto;
-    margin-top: 94px;
 }
 
 .offer_section{
@@ -366,7 +370,6 @@ input{
 
 /* PARTNERSHIP */
 .partnership__title{
-    margin-top: 178px;
     font-weight: 500;
     font-size: 30px;
     line-height: 45px;
